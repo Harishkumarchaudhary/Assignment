@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:hint="Enter your knox id"
+        android:id="@+id/knoxid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:id="@+id/btn"
+        android:text="GET NAME"
+        android:layout_width="80dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/nameText"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:id="@+id/impbtn"
+        android:text="Implicit Intent Example"
+        android:layout_width="200dp"
+        android:layout_height="60dp"/>
+
+
+
+</LinearLayout>
